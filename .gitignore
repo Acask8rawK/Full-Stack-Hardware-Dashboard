@@ -1,0 +1,25 @@
+# --- IGNORE EVERYWHERE ---
+# Mac system files
+.DS_Store
+
+# --- BACKEND (Python) ---
+# Ignore the heavy virtual environment folder wherever it is
+venv/
+env/
+.env
+
+# Ignore compiled python files
+__pycache__/
+*.py[cod]
+
+# --- FRONTEND (Node/Astro) ---
+# Ignore dependencies wherever they are
+node_modules/
+
+# Build outputs
+dist/
+.astro/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
